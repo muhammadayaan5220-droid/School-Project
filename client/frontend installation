@@ -1,0 +1,4 @@
+cd server
+npm install
+mkdir uploads
+npm run dev
