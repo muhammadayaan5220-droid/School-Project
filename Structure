@@ -1,0 +1,23 @@
+allbirds-ecommerce/
+├── client/                 # React frontend
+│   ├── public/
+│   ├── src/
+│   │   ├── components/     # Reusable UI components
+│   │   ├── pages/          # Page components
+│   │   ├── context/        # React context for state management
+│   │   ├── utils/          # Helper functions
+│   │   ├── App.js
+│   │   └── index.js
+│   ├── tailwind.config.js
+│   └── package.json
+├── server/                 # Express backend
+│   ├── controllers/        # Route handlers
+│   ├── models/             # Database models
+│   ├── routes/             # API routes
+│   ├── middleware/         # Custom middleware
+│   ├── config/             # Configuration files
+│   ├── uploads/            # Local file storage (for development)
+│   ├── server.js
+│   └── package.json
+├── .gitignore
+└── README.md
